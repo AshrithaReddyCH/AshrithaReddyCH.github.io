@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px; /* Space for the fixed navbar */
+}
+
+.row {
+    background-color: rgb(234, 172, 78);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.box {
+    padding: 10px;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6 {
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.row1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row1 img {
+    width: 600px;
+    height: 350px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 197, 211);
+    padding: 20px;
+}
+
+.box1 {
+    background-color: rgb(237, 179, 179);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row3, .row4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row4 {
+    background-color: rgb(144, 238, 144);
+}
+
+.row5 {
+    background-color: rgb(240, 128, 128);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* Add a margin-top or padding-top to prevent the content from overlapping the navbar */
+.row6 {
+    background-color: rgb(255, 228, 196);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-container {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.skill {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.skill img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
